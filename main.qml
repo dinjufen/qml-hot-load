@@ -13,6 +13,7 @@ Window {
 
     Loader {
         id: loader
+        objectName: "sourceLoader"
         source: url
         onLoaded: {
             loader.width = item.width
@@ -24,11 +25,6 @@ Window {
             loader.source = url
         }
     }
-//    Binding {
-//        target: loader.item
-//        property: "text"
-//        value: "Hello World as"
-//    }
 
     Button {
         text: "Refresh"

@@ -17,9 +17,9 @@ Item {
 
     Rectangle {
         x: 100; y: 120;
-        height: 180
+        height: 140
         width: height * 2
-        color: "blue"
+        color: "red"
     }
 
     Text {
